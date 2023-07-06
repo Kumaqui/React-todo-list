@@ -3,7 +3,11 @@ import axios from "axios";
 
 class IndexComponent extends Component {
   state = {
-    todoList: []
+    todoList: [
+      {todoTableId: "1", title: "項目1", isComplete: 0},
+      {todoTableId: "2", title: "項目2", isComplete: 0},
+      {todoTableId: "3", title: "項目3", isComplete: 0}
+    ]
   };
   render() {
     return (
